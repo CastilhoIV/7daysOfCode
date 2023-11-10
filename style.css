@@ -1,0 +1,27 @@
+@import url(/styles/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url(/styles/cabecalho.css);
+@import url(styles/sobre-nos.css);
+@import url(styles/numeros.css);
+@import url(styles/vagas.css);
+@import url(styles/feedback.css);
+@import url(styles/rodape.css);
+
+
+
+:root{
+ --cor-fundo:#FFFFFF;
+ --cor-texto:#667085;
+ --cor-botao:#8E2424;
+ --cor-titulos:#101828;
+ --cor-botao-fraca: rgba(142, 36, 36, 0.05);
+ --fonte-principal:'Inter', sans-serif;
+ --cor-borda-card: #EAECF0;
+ --cor-rodape:#F9FAFB;
+ --cor-creditos:#98A2B3;
+}
+
+body{
+   
+    font-family: var(--fonte-principal);
+}

@@ -1,0 +1,23 @@
+.sobre-nos{
+    text-align: center;
+    padding: 6em 19em;
+    font-family: var(--fonte-principal);
+}
+.sobre-nos__span{
+    font-weight: 600;
+    color: var(--cor-botao);
+}
+
+.sobre-nos__titulo{
+    font-weight: 600;
+    font-size: 3em;
+    color: var(--cor-titulos);
+    margin: 1em;
+}
+
+.sobre-nos__paragrafo{
+    font-size: 20px;
+    color: var(--cor-texto);
+    font-weight: 400;
+
+}

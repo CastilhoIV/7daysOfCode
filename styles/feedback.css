@@ -1,0 +1,35 @@
+.feedback{
+    text-align: center;
+    background-color: var(--cor-botao-fraca);
+    padding: 4em;
+    margin:  5em 6em;
+    border-radius: 1em;
+    font-family: var(--fonte-principal);
+}
+
+.feedback__span{
+    font-size: 14px;
+    margin-bottom: 1em;
+}
+
+.feedback__titulo{
+    font-weight: 500;
+    font-size: 2.25em;
+}
+
+.feedback__imagem__nome{
+    font-weight: 500;
+    color: var(--cor--titulos);
+    margin-top: 1em;
+}
+
+.feedback__imagem__funcao{
+    color:var(--cor-texto);
+    font-size: 14px;
+}
+
+.feedback__imagem__informaçoes{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}

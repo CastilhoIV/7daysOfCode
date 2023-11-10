@@ -1,0 +1,28 @@
+.cadastro{
+    text-align: center;
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-rodape);
+    padding: 5em 21em;
+}
+
+.cadastro__email{
+    padding: 0.7em 1em;
+    border-radius:0.5em;
+    border: 1px solid var(--cor-borda-card);
+    margin: 2.5em 1em;
+   width: 21em;
+}
+
+.cadastro__credito{
+    color: var(--cor-creditos);
+}
+
+.cadastro__email::placeholder{
+    color: var(--cor-texto);
+   
+}
+
+.cadastro__email::selection{
+    border-color: var(--cor-botao);
+    background-color: var(--cor-botao);
+}

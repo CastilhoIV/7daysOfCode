@@ -1,0 +1,59 @@
+.vagas{
+    text-align: center;
+    font-family: var(--fonte-principal);
+    margin-top: 5em;
+}
+
+.vagas__span{
+    font-size: 14px;
+    color: var(--cor-botao);
+    font-weight: 500;
+    background-color:var(--cor-botao-fraca);
+    padding: 0.2em 0.6em;
+    border-radius: 16px;
+    margin-top: 4em;
+    
+}
+.vagas__imagem{
+    margin: 4em 7em;
+}
+
+
+.vagas__titulo{
+    font-size: 2.25em;
+}
+.funcao{
+    margin: 0 27%;
+    font-family: var(--fonte-principal);
+}
+
+
+.vagas__card{
+    padding: 1.5em;
+    border: 1px solid var(--cor-borda-card);
+    border-radius: 16px;
+    margin-bottom: 2em;
+    text-align: start;
+   
+}
+.vagas__card__funcao{
+    color: var(--cor-titulos);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 2em;
+}
+.vagas__card__informaçao{
+    color: var(--cor-texto);
+    font-weight: 500;
+    display: flex;
+    gap: 1.5em;
+    margin-top: 2em;
+}
+.vagas__vaga__titulo{
+    font-size: 20px;
+}
+
+.vagas__card:hover{
+    border-color: var(--cor-botao);
+      
+}
